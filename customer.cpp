@@ -25,7 +25,7 @@ Customer::Customer(const string name, const float money, const int happiness, co
 :m_numThings (0), m_name (name), m_happiness (happiness), m_store (store),
  m_money (money) {}
 
-bool Customer::buy_stuff(const Business shop)
+bool Customer::buy_stuff(product & items[])
 {
   int chance, item;
   bool buy, confirm;
@@ -40,6 +40,13 @@ bool Customer::buy_stuff(const Business shop)
   if (buy == true)
   {
     item = rand % 7;
+    
+    //open certain stream
+    //gitline 
+    //add that item to array items
+    //in bus.cpp call buy_stuff() and access items[] 
+    
+    
     if (shop.m_purchase[item].m_price <= m_money)
     {
       m_happiness += 15;
