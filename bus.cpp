@@ -1,3 +1,10 @@
+//David Strickland
+//Faith Van Wig
+//Class and Section: CS53 D
+//Date: December  4, 2013
+//Final Assignment, OOP, Bar people vs. Comic people
+
+
 #include "bus.h"
 #include <iostream>
 #include <string>
