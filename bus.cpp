@@ -35,6 +35,6 @@ void customers_leave (customer customers[], int numOfCusts)
 
   for (int i = 0; i < numOfCusts; i++)
   {
-
+    
 
 #endif
