@@ -1,4 +1,5 @@
 //Name: Strickland, David
+//Name: van Wig, Faith
 //Class and Section: CS53 D
 //Date: November 24, 2013
 //
