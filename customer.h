@@ -16,6 +16,9 @@ const int POCKET_SIZE = 20;
 
 struct Product
 {
+  string m_name;
+  float m_price;
+};
 
 class Customer
 {
