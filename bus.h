@@ -10,13 +10,15 @@
 
 using namespace std;
 
-class business
+class Business
 {
   private:
     product m_items[];
+    string m_name;
     string m_custs[];
     int m_sizeCusts;
   public:
+    Business(const string name):string m_name = name,
     addCustomer(customer c){m_sizeCusts++; return;}
     sell_stuff()
     customers_leave(customer customers[], int numOfCusts);
