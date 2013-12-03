@@ -24,7 +24,7 @@ class Customer
 {
   private:
     Product m_things[POCKET_SIZE];
-    int m_numThings
+    int m_numThingsl;
     string m_name;
     int m_happiness;
     int m_store;
@@ -37,7 +37,7 @@ class Customer
     bool buy_stuff(const Business shop);
     string getName() const {return m_name;}
     float getMoney() const {return m_money;}
-    float modMoney(const float money) {return m_money += money;}
+    float modMoney(const float money) {return m_money -= money;}
     float setMoney(const float money) {return m_money = money;}
     string setName(const string name) {return m_name = name;}
     int setPref(const int store) {return m_store = store;}
