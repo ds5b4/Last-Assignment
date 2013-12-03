@@ -41,9 +41,10 @@ class Customer
     float setMoney(const float money) {return m_money = money;}
     string setName(const string name) {return m_name = name;}
     int setPref(const int store) {return m_store = store;}
+    Product setItems(const Product thing); 
     void pelt(Customer victim);
     void steal(Customer victim);
-
+    
   friend ostream& operator<< (ostream& out, const Customer& python);
 };
 
