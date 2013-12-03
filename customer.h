@@ -1,8 +1,8 @@
-//Name: Faith Van Wig
-//Name: David Strickland
+//David Strickland
+//Faith Van Wig
 //Class and Section: CS53 D
 //Date: November 24, 2013
-//
+//Final Assignment, OOP, Bar people vs. Comic people
 
 #ifndef CUSTOMER_H
 #define CUSTOMER_H
