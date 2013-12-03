@@ -26,14 +26,16 @@ sell_stuff()
   ifstream fin;
   ofstream fout;
 
-  fin.open("people.txt");
-  fin.getline()
 
   for (int i = 0; i < ; i++)
   {
     if (c.buy_something(product & item) == success)
     {
       //transfer product to the customer and transfer funds
+      
+      
+      fin.open("")
+    }
 }
 
 void customers_leave (customer customers[], int numOfCusts)
