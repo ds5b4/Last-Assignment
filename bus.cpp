@@ -27,7 +27,7 @@ sell_stuff()
   ofstream fout;
 
   fin.open("people.txt");
-  fin.getline (
+  fin.getline()
 
   for (int i = 0; i < ; i++)
   {
@@ -43,5 +43,6 @@ void customers_leave (customer customers[], int numOfCusts)
   for (int i = 0; i < numOfCusts; i++)
   {
     
+Business::Business(const string name):
 
 #endif
