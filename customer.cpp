@@ -68,6 +68,14 @@ bool Customer::buy_stuff(product & items[])
   return confirm;
 }
 
+Product Customer::setItems(const Product thing)
+{
+  m_things[m_numThings].m_name = thing.m_name;
+  m_things[m_numThings].m_price = thing.m_price;
+  m_numThings++;
+  return m_things[m_numThings -1];
+}
+
 void Customer::pelt(Customer victim)
 {
   if (m_numThings == 0)
